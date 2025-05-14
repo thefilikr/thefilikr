@@ -1,0 +1,11 @@
+name: Update README  
+on:  
+  schedule:  
+    - cron: '0 0 * * *'  
+jobs:  
+  build:  
+    runs-on: ubuntu-latest  
+    steps:  
+      - uses: actions/checkout@v3  
+      - run: |  
+          echo "🔄 Последнее обновление: $(date)" >> README.md  
