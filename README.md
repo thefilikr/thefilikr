@@ -50,7 +50,7 @@
   
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thefilikr&layout=compact&theme=dracula&hide_border=true&bg_color=0D1117" alt="Top Languages">
   
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=thefilikr&theme=dracula&hide_border=true&bg_color=0D1117" alt="WakaTime Stats">
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=FILIkR&theme=dracula&hide_border=true&bg_color=0D1117" alt="WakaTime Stats">
 </div>
 
 ## 🏆 Достижения

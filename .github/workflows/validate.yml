@@ -43,8 +43,8 @@ jobs:
       run: |
         echo "🛠️ Проверка технологических бейджей..."
 
-        # Проверяем наличие основных технологий
-        techs=("Python" "Go" "TypeScript" "PostgreSQL" "MongoDB" "Docker")
+                  # Проверяем наличие основных технологий
+          techs=("Python" "Go" "TypeScript" "PostgreSQL" "MongoDB" "Docker" "Ansible")
 
         for tech in "${techs[@]}"; do
           if grep -q "$tech" README.md; then

@@ -28,9 +28,10 @@ jobs:
         import json
         from datetime import datetime
 
-        # GitHub API для получения статистики
-        username = 'thefilikr'
-        api_url = f'https://api.github.com/users/{username}'
+                  # GitHub API для получения статистики
+          username = 'thefilikr'
+          wakatime_username = 'FILIkR'
+          api_url = f'https://api.github.com/users/{username}'
 
         try:
             response = requests.get(api_url)
