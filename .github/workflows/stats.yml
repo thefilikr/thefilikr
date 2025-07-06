@@ -1,0 +1,66 @@
+name: Update GitHub Stats
+on:
+  schedule:
+  - cron: '0 6 * * *' # Ежедневно в 06:00 UTC
+  workflow_dispatch:
+    # Ручной запуск
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: |
+        pip install requests beautifulsoup4
+
+    - name: Update GitHub stats
+      run: |
+        python -c "
+        import requests
+        import json
+        from datetime import datetime
+
+        # GitHub API для получения статистики
+        username = 'thefilikr'
+        api_url = f'https://api.github.com/users/{username}'
+
+        try:
+            response = requests.get(api_url)
+            if response.status_code == 200:
+                user_data = response.json()
+                print(f'✅ GitHub статистика обновлена')
+                print(f'📊 Публичных репозиториев: {user_data.get(\"public_repos\", 0)}')
+                print(f'👥 Подписчиков: {user_data.get(\"followers\", 0)}')
+                print(f'📅 Создан: {user_data.get(\"created_at\", \"N/A\")}')
+            else:
+                print(f'❌ Ошибка получения данных: {response.status_code}')
+        except Exception as e:
+            print(f'❌ Ошибка: {e}')
+        "
+
+    - name: Update README with stats info
+      run: |
+        # Добавляем информацию о последнем обновлении статистики
+        STATS_TIME=$(date +'%d.%m.%Y в %H:%M UTC')
+        echo "📈 Статистика обновлена: $STATS_TIME"
+
+        # Обновляем README если нужно
+        if ! grep -q "📈 Статистика обновлена:" README.md; then
+          sed -i '/^---$/a\\n📈 **Статистика обновлена:** '"$STATS_TIME" README.md
+        fi
+
+    - name: Commit stats update
+      run: |
+        git config --global user.name "GitHub Stats Bot"
+        git config --global user.email "stats@github.com"
+        git add README.md
+        git diff --quiet && git diff --staged --quiet || git commit -m "📈 Auto-update GitHub stats - $(date +'%d.%m.%Y %H:%M')"
+        git push 
