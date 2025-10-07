@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="img.jpg" alt="Filikr" width="200" height="200" style="border-radius: 50%; object-fit: cover; border: 4px solid #00d4ff; box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);">
+  <img src="img.png" alt="Filikr" width="200" height="200" style="border-radius: 50%; object-fit: cover; border: 4px solid #00d4ff; box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);">
   
   # Привет, я Filikr! 👋
   
