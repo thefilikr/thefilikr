@@ -46,19 +46,19 @@
 ## 📊 Статистика GitHub
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=thefilikr&show_icons=true&theme=dracula&hide_border=true&bg_color=0D1117" alt="GitHub Stats">
+  <!-- <img src="https://github-readme-stats.vercel.app/api?username=thefilikr&show_icons=true&theme=dracula&hide_border=true&bg_color=0D1117" alt="GitHub Stats"> -->
   
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thefilikr&layout=compact&theme=dracula&hide_border=true&bg_color=0D1117" alt="Top Languages">
   
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=FILIkR&theme=dracula&hide_border=true&bg_color=0D1117" alt="WakaTime Stats">
+  <!-- <img src="https://github-readme-stats.vercel.app/api/wakatime?username=FILIkR&theme=dracula&hide_border=true&bg_color=0D1117" alt="WakaTime Stats"> -->
 </div>
 
-## 🏆 Достижения
+<!-- ## 🏆 Достижения
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=thefilikr&theme=dracula&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies">
 </div>
-
+-->
 ## 📈 Активность
 
 <div align="center">
