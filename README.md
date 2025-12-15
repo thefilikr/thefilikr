@@ -81,7 +81,7 @@ Hi! I am a backend developer specializing in Python and Go. I create effective s
    <a href="mailto:mail@filikr.space"> 
      <img src="https://img.shields.io/badge/-Email-D14836?logo=gmail&logoColor=white&style=for-the-badge" alt="Email"> 
    </a>
-    <a href="https://filikr@space"> 
+    <a href="https://filikr.space"> 
       <img src="https://img.shields.io/badge/-Website-4285F4?logo=google-chrome&logoColor=white&style=for-the-badge" alt="Website"> 
     </a> 
   <a href="https://linkedin.com/in/filikr"> 
