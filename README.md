@@ -3,7 +3,7 @@
   
   # Hello, I'm Filikr! 👋
   
-  ### 🚀 Backend-Developer | Python & Go
+  ### 🚀 FullStack-Developer | JavaScript & Go
   
   [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github)](https://github.com/thefilikr)
   [![Telegram](https://img.shields.io/badge/-Telegram-0088cc?logo=telegram)](https://t.me/the_filikr_en)
@@ -13,7 +13,7 @@
 
 ## 🎯 About Me
 
-Hi! I am a backend developer specializing in Python and Go. I create effective solutions for automation, data parsing, and web application development.
+Hi! I am a FullStack developer specializing in JavaScript and Golang. I create effective solutions for automation, data parsing, and web application development.
 
 ## 🔭 Currently Working On
 
@@ -24,9 +24,8 @@ Hi! I am a backend developer specializing in Python and Go. I create effective s
 ## 🛠️ Hard Skils
 
 ### Programming Languages
-![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=for-the-badge)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=white&style=for-the-badge)
 ![Go](https://img.shields.io/badge/-Go-00ADD8?logo=go&logoColor=white&style=for-the-badge)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge)
 
 ### Databases
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=for-the-badge)
